@@ -25,7 +25,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           </Link>
         )}
         {product?.stock === 0 && (
-          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="absolute top-0 left-0 w-full h-full bg-berryBlack/30 flex items-center justify-center">
             <p className="text-lg font-bold text-white">Out of Stock</p>
           </div>
         )}

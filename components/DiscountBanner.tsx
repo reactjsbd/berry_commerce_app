@@ -15,7 +15,7 @@ import { Button } from "./ui/button";
 
 const DiscountBanner = async ({ sales }: { sales: SALE_QUERYResult }) => {
   return (
-    <Carousel className="w-full max-w-screen-xl mx-auto mt-10 mb-5">
+    <Carousel className="w-full max-w-(--breakpoint-xl) mx-auto mt-10 mb-5">
       <CarouselContent>
         {sales.map((sale) => (
           <CarouselItem key={sale?._id}>

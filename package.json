@@ -19,8 +19,8 @@
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.4",
     "@sanity/client": "^6.22.4",
-    "@sanity/icons": "^3.4.0",
-    "@sanity/image-url": "1",
+    "@sanity/icons": "^3.5.7",
+    "@sanity/image-url": "^1.1.0",
     "@sanity/preview-url-secret": "^2.0.4",
     "@sanity/vision": "3",
     "@types/lodash": "^4.17.13",
@@ -32,8 +32,8 @@
     "install": "^0.13.0",
     "lodash": "^4.17.21",
     "lucide-react": "^0.456.0",
-    "next": "15.0.3",
-    "next-sanity": "9",
+    "next": "^15.2.4",
+    "next-sanity": "^9.8.35",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-hot-toast": "^2.4.1",
@@ -46,13 +46,14 @@
     "zustand": "^5.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^4.0.14",
     "typescript": "^5"
   }
 }
